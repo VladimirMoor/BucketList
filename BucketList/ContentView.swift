@@ -13,6 +13,7 @@ struct ContentView: View {
     
     @State private var showingPlaceDetail = false
     @State private var isUnlocked = false
+    @State private var showAuthError = false
 
     var body: some View {
         
@@ -28,6 +29,9 @@ struct ContentView: View {
                 .background(Color.black.opacity(0.75))
                 .foregroundColor(.white)
                 .clipShape(Capsule())
+                .alert(isPresented: $showAuthError) { () -> Alert in
+                    Alert(title: Text("Auth error"), message: Text("We have error while authentication process"), dismissButton: .default(Text("Ok")))
+                }
             }
         
 }
@@ -44,13 +48,13 @@ struct ContentView: View {
                     if success {
                         self.isUnlocked = true
                     } else {
-                        // error
+                        showAuthError = true
                     }
                 }
                 
             }
         } else {
-            // no biometrics
+            showAuthError = true
         }
     }
 
