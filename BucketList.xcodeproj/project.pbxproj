@@ -16,6 +16,7 @@
 		E7EA1B62268EFE4D00DAC39F /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA1B61268EFE4D00DAC39F /* EditView.swift */; };
 		E7EA1B65268F065400DAC39F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA1B64268F065400DAC39F /* Result.swift */; };
 		E7EA1B68268F225F00DAC39F /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA1B67268F225E00DAC39F /* MKPointAnnotation-Codable.swift */; };
+		E7EA1B6C268F423900DAC39F /* CustomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA1B6B268F423900DAC39F /* CustomMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E7EA1B61268EFE4D00DAC39F /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		E7EA1B64268F065400DAC39F /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		E7EA1B67268F225E00DAC39F /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
+		E7EA1B6B268F423900DAC39F /* CustomMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				E7A0D9D0268D99520099A77D /* BucketListApp.swift */,
 				E7A0D9D2268D99520099A77D /* ContentView.swift */,
+				E7EA1B6B268F423900DAC39F /* CustomMapView.swift */,
 				E7EA1B5E268EFCE500DAC39F /* MKPointAnnotation-OservableObject.swift */,
 				E7EA1B67268F225E00DAC39F /* MKPointAnnotation-Codable.swift */,
 				E7EA1B61268EFE4D00DAC39F /* EditView.swift */,
@@ -155,6 +158,7 @@
 			files = (
 				E7EA1B68268F225F00DAC39F /* MKPointAnnotation-Codable.swift in Sources */,
 				E7EA1B65268F065400DAC39F /* Result.swift in Sources */,
+				E7EA1B6C268F423900DAC39F /* CustomMapView.swift in Sources */,
 				E7A0D9D3268D99520099A77D /* ContentView.swift in Sources */,
 				E7EA1B62268EFE4D00DAC39F /* EditView.swift in Sources */,
 				E7A0D9E1268DD9F70099A77D /* MapView.swift in Sources */,
